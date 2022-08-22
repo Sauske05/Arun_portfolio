@@ -1,0 +1,150 @@
+.homepage {
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 100%;
+    
+    /* background-image: url('assets/image.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homepage .navbar h1 {
+    margin: 5px 20px;
+    font-size: 3rem;
+}
+
+.homepage .back-video {
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+.homepage .cover_container .main_container .container_1 div a {
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 7px;
+    border-radius: 50px;
+}
+.homepage .cover_container .main_container .container_1 h4, .homepage .cover_container .main_container .container_1 div h2,.homepage .cover_container .main_container .container_1 p{
+    color: white;
+}
+.homepage .cover_container .main_container .container_1 a h1:hover {
+    color: red;
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .homepage .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.homepage .cover_container .main_container .container_1 p .typing,
+.homepage .cover_container .main_container .container_1 div a {
+    color: white;
+}
+.homepage .navbar {
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homepage .navbar #atom_icon {
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.homepage .navbar #list_icon {
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+.sticky {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    /* background-color: lightgrey; */
+}
+
+.homepage .navbar.sticky .list_item ul a {
+    color: white;
+}
+
+.homepage .navbar.sticky .list_item ul a:hover {
+    color: crimson;
+}
+
+.homepage .navbar .list_item {
+    margin: 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.homepage .navbar .list_item ul a {
+    transition: color 0.7s ease;
+    color: white;
+}
+
+.homepage .navbar .list_item ul a:hover {
+    color: red;
+}
+.homepage .cover_container {
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    flex-direction: row;
+}
+.homepage .cover_container .main_container {
+    height: 90vh;
+    width: 35vw;
+    display: grid;
+    place-items: center;
+}
+
+.homepage .cover_container .main_container .container_1 h4 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.homepage .cover_container .main_container .container_1 div h2 {
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+
+.homepage .cover_container .main_container .container_1 p {
+    font-size: 1.2rem;
+}
+.homepage .cover_container .main_container .container_1 p span {
+    color: #111222;
+    font-size: 2rem;
+}
+
+
+.homepage .cover_container .main_container .container_1 div a {
+    font-weight: 600;
+    padding:10px 50px;
+}
+
+
+.homepage .cover_container .main_container .container_1 div a:hover {
+    background-color: #111222;
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding:10px 50px;
+}

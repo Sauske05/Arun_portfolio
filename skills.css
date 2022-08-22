@@ -1,0 +1,42 @@
+
+.skills {
+    height: 80vh;
+    width: 100vw;
+    background-color: lightgrey;
+}
+.skills .my_skills {
+    display: grid;
+    place-items: center;
+}
+.skills .my_skills h2 {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.skills .box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.skills .box div {
+    width: 40%;
+    background-color: black;
+    margin: 3px;
+    display: grid;
+    place-items:center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.skills .box div:hover {
+    width: 40%;
+    background-color: crimson;
+    margin: 3px;
+    display: grid;
+    place-items:center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}

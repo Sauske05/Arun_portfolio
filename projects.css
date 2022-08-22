@@ -1,0 +1,257 @@
+.projects {
+    height: 80vh;
+    background-color: grey;
+    width: 100vw;
+}
+
+.projects .title h2 {
+    display: grid;
+    place-items: center;
+    width: inherit;
+    padding-top: 20px;
+}
+
+.projects .image_sliders {
+    display: flex;
+}
+
+/* .projects .paragraphs {
+    padding: 0px 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.projects .image_sliders #slider .para_1 {
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+.projects .paragraphs .para_2 {
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+/* // image nav one */
+
+#slider {
+    position: relative;
+    width: 500px;
+    height: 60vh;
+    margin: 50px auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#slider ul {
+    position: relative;
+    list-style: none;
+    height:65%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}
+
+#slider ul li {
+    position: relative;
+    height: 100%;
+
+    float: left;
+}
+
+#slider ul li img {
+    width: 500px;
+    height: 290px;
+
+}
+
+#slider #prev,
+#slider #next {
+    width: 40px;
+    line-height: 40px;
+    display: none;
+    font-size: 1.5rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: black;
+    background: #f9f7fb;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+
+#slider #prev:hover,
+#slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+    color: white;
+}
+
+#slider #next {
+    right: 0px;
+
+}
+
+/* // another image */
+
+#slider1 {
+    position: relative;
+    width: 500px;
+    height: 60vh;
+    margin: 50px auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#slider1 #prev1, #slider1 #next1 {
+    display: none;
+}
+
+#slider1 .para_2 {
+    justify-content: center;
+    text-align: center;
+}
+#slider1 ul {
+    position: relative;
+    list-style: none;
+    height:65%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}
+
+#slider1 ul li {
+    position: relative;
+    height: 100%;
+
+    float: left;
+}
+
+#slider1 ul li img {
+    width: 500px;
+    height: 290px;
+
+}
+
+#slider1 #prev,
+#slider1 #next {
+    width: 40px;
+    line-height: 40px;
+    display: none;
+    font-size: 1.5rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: black;
+    background: #f9f7fb;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+
+#slider1 #prev:hover,
+#slider1 #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+    color: white;
+}
+
+#slider1 #next {
+    right: 0px;
+}
+
+/* slider2 starts */
+
+#slider2 {
+    position: relative;
+    width: 500px;
+    height: 60vh;
+    margin: 50px auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#slider2 #prev2, #slider2 #next2 {
+    display: none;
+}
+
+#slider2 .para_3 {
+    justify-content: center;
+    text-align: center;
+}
+#slider2 ul {
+    position: relative;
+    list-style: none;
+    height:65%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}
+
+#slider2 ul li {
+    position: relative;
+    height: 100%;
+
+    float: left;
+}
+
+#slider2 ul li img {
+    width: 500px;
+    height: 290px;
+
+}
+
+#slider2 ul li video {
+    width: 500px;
+    height: 290px;
+
+}
+
+#slider2 #prev,
+#slider2 #next {
+    width: 40px;
+    line-height: 40px;
+    display: none;
+    font-size: 1.5rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: black;
+    background: #f9f7fb;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+
+#slider2 #prev:hover,
+#slider2 #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+    color: white;
+}
+
+#slider2 #next {
+    right: 0px;
+}
+/* // all projects css */
+
+.all_projects{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    
+}

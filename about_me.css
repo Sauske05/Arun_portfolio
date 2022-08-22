@@ -1,0 +1,119 @@
+/* .about_me {
+    overflow-y: hidden;
+    width: 100vw;
+    background-color: lightgray;
+    height: 100vh;
+}
+
+.about_me .about_me_box {
+    padding-top: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.about_me .box_main {
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+   
+    place-items: center;
+}
+
+.about_me .box_main .box_1 {
+    width: 40vw;
+    background-image: url('assets/pp.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+}
+
+.about_me .box_main .box_2 {
+    width: 40vw;
+    margin-right: 30px;
+    text-align: justify;
+} */
+
+.sec-02 {
+    overflow-y: hidden;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+    background-color:#111222;
+}
+.sec-02 .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color : #111222;
+  }
+  .sec-02 .container .section-title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+  }
+
+  .sec-02 .container .content .info .info-title,.sec-02 .container .content .info p  {
+    color: #fff;
+  }
+  .content{
+    position: relative;
+    background-color: #111222;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content .image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .content .image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .content .text-box{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+  }
+  
+  .content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .info{
+    width: 700px;
+    margin-left: 50px;
+  }
+
+  

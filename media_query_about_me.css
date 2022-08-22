@@ -1,0 +1,11 @@
+@media all and (max-width : 480px) {
+    .about_me {
+        height: min-content;
+    }
+.about_me .box_main .box_1 {
+    height: 25vh;
+}
+.about_me .box_main .box_2 {
+    text-align: justify;
+ }
+}

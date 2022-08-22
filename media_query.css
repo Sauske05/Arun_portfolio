@@ -1,0 +1,27 @@
+
+@media all and (max-width : 975px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .about_me .box_main {
+        display: grid;
+        place-items: center;
+        height: auto;
+    }
+
+    .about_me .box_main .box_1 {
+        width: 40vw;
+        height: 40vh;
+
+    }
+
+    .about_me .box_main .box_2 {
+        width: 90vw;
+        padding: 0px 20px 0px 20px;
+        margin-right: 30px;
+        text-align: center;
+    }
+}

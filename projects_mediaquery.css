@@ -1,0 +1,25 @@
+@media all and (max-width : 480px) {
+    .projects {
+        height: min-content;
+    }
+    .projects .paragraphs {
+        padding: 0px 0px;
+    }
+    #slider, #slider1 {
+        width: 40vw;
+        height: 200px;
+    }
+
+    #slider ul li img{
+        width: 40vw;
+        height: 200px;
+    }
+    #slider1 ul li img {
+        width: 40vw;
+        height: 200px;
+    }
+    .projects .paragraphs .para_1, .projects .paragraphs .para_2 {
+        font-size: small;
+        text-align: center;
+    }
+}

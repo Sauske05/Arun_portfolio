@@ -1,0 +1,25 @@
+@media all and (max-width : 850px) {
+    .homepage .navbar .list_item ul a {
+        display: none;
+    }
+}
+
+@media all and (min-width : 850px) {
+    .homepage .navbar #list_icon {
+        display: none;
+    }
+}
+
+@media all and (max-width:480px) {
+    html {
+        font-size: 14px;
+    }
+
+    .homepage .cover_container .main_container {
+        width: 100%;
+    }
+
+    #slider2 {
+        display: none;
+    }
+}
